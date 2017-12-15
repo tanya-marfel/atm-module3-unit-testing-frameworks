@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="12" guice-stage="DEVELOPMENT" name="Failed suite [Smoke]" parallel="classes">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
   <listeners>
     <listener class-name="com.epam.testng.listeners.TestListener"/>
   </listeners>
-  <test thread-count="12" name="DivisionTest(failed)" parallel="classes">
+  <test name="DivisionTest(failed)">
     <groups>
       <run>
         <include name="division"/>
@@ -23,9 +23,16 @@
           <include name="printOnFinish"/>
         </methods>
       </class> <!-- com.epam.testng.basictests.BasicDivLongsTest -->
+      <class name="com.epam.testng.basictests.BasicDivDoublesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="divideByZero"/>
+          <include name="printOnFinish"/>
+        </methods>
+      </class> <!-- com.epam.testng.basictests.BasicDivDoublesTest -->
     </classes>
   </test> <!-- DivisionTest(failed) -->
-  <test thread-count="12" name="CosinusTest(failed)" parallel="classes">
+  <test name="CosinusTest(failed)">
     <groups>
       <run>
         <include name="cos"/>
@@ -45,7 +52,7 @@
       </class> <!-- com.epam.testng.basictests.BasicCosTest -->
     </classes>
   </test> <!-- CosinusTest(failed) -->
-  <test thread-count="12" name="CotangentTest(failed)" parallel="classes">
+  <test name="CotangentTest(failed)">
     <groups>
       <run>
         <include name="ctg"/>
@@ -65,7 +72,7 @@
       </class> <!-- com.epam.testng.basictests.BasicCtgTest -->
     </classes>
   </test> <!-- CotangentTest(failed) -->
-  <test thread-count="12" name="TangentTest(failed)" parallel="classes">
+  <test name="TangentTest(failed)">
     <groups>
       <run>
         <include name="tg"/>

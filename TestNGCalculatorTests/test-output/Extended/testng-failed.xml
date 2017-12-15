@@ -59,6 +59,13 @@
       </run>
     </groups>
     <classes>
+      <class name="com.epam.testng.basictests.BasicCosTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testNegativeAngle"/>
+          <include name="printOnFinish"/>
+        </methods>
+      </class> <!-- com.epam.testng.basictests.BasicCosTest -->
       <class name="com.epam.testng.parameterizedtests.CosTest">
         <methods>
           <include name="testAngles"/>
@@ -68,13 +75,6 @@
           <include name="printOnFinish"/>
         </methods>
       </class> <!-- com.epam.testng.parameterizedtests.CosTest -->
-      <class name="com.epam.testng.basictests.BasicCosTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testNegativeAngle"/>
-          <include name="printOnFinish"/>
-        </methods>
-      </class> <!-- com.epam.testng.basictests.BasicCosTest -->
     </classes>
   </test> <!-- CosinusTest(failed) -->
   <test thread-count="12" name="CotangentTest(failed)" parallel="classes">
@@ -87,6 +87,13 @@
       </run>
     </groups>
     <classes>
+      <class name="com.epam.testng.basictests.BasicCtgTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testNegativeAngle"/>
+          <include name="printOnFinish"/>
+        </methods>
+      </class> <!-- com.epam.testng.basictests.BasicCtgTest -->
       <class name="com.epam.testng.parameterizedtests.CtgTest">
         <methods>
           <include name="setUp"/>
@@ -96,13 +103,6 @@
           <include name="printOnFinish"/>
         </methods>
       </class> <!-- com.epam.testng.parameterizedtests.CtgTest -->
-      <class name="com.epam.testng.basictests.BasicCtgTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testNegativeAngle"/>
-          <include name="printOnFinish"/>
-        </methods>
-      </class> <!-- com.epam.testng.basictests.BasicCtgTest -->
     </classes>
   </test> <!-- CotangentTest(failed) -->
   <test thread-count="12" name="TangentTest(failed)" parallel="classes">
@@ -143,13 +143,6 @@
       </run>
     </groups>
     <classes>
-      <class name="com.epam.testng.parameterizedtests.PowTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testPower"/>
-          <include name="printOnFinish"/>
-        </methods>
-      </class> <!-- com.epam.testng.parameterizedtests.PowTest -->
       <class name="com.epam.testng.basictests.BasicPowTest">
         <methods>
           <include name="setUp"/>
@@ -157,6 +150,13 @@
           <include name="printOnFinish"/>
         </methods>
       </class> <!-- com.epam.testng.basictests.BasicPowTest -->
+      <class name="com.epam.testng.parameterizedtests.PowTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testPower"/>
+          <include name="printOnFinish"/>
+        </methods>
+      </class> <!-- com.epam.testng.parameterizedtests.PowTest -->
     </classes>
   </test> <!-- PowerTest(failed) -->
   <test thread-count="12" name="SquareRootTest(failed)" parallel="classes">

@@ -1,127 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="12" guice-stage="DEVELOPMENT" name="Failed suite [CriticalPath]" parallel="classes">
-  <listeners>
-    <listener class-name="com.epam.testng.listeners.SuiteListener"/>
-  </listeners>
-  <test thread-count="12" name="AdditionTest(failed)" parallel="classes">
-    <groups>
-      <run>
-        <include name="addition"/>
-        <include name="doubles"/>
-        <include name="longs"/>
-        <include name="criticalPath"/>
-        <exclude name="extended"/>
-        <exclude name="smoke"/>
-      </run>
-    </groups>
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.epam.testng.parameterizedtests.SumLongsTest">
         <methods>
-          <include name="sumPositiveLongs"/>
+          <include name="sumPositiveLongs" invocation-numbers="1"/>
           <include name="setUp"/>
           <include name="printOnFinish"/>
         </methods>
       </class> <!-- com.epam.testng.parameterizedtests.SumLongsTest -->
     </classes>
-  </test> <!-- AdditionTest(failed) -->
-  <test thread-count="12" name="SubtractionTest(failed)" parallel="classes">
-    <groups>
-      <run>
-        <include name="subtraction"/>
-        <include name="doubles"/>
-        <include name="longs"/>
-        <include name="criticalPath"/>
-        <exclude name="extended"/>
-        <exclude name="smoke"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.epam.testng.parameterizedtests.SubLongsTest">
-        <methods>
-          <include name="subPositiveLongs" invocation-numbers="0 1 2"/>
-          <include name="setUp"/>
-          <include name="printOnFinish"/>
-        </methods>
-      </class> <!-- com.epam.testng.parameterizedtests.SubLongsTest -->
-    </classes>
-  </test> <!-- SubtractionTest(failed) -->
-  <test thread-count="12" name="MultiplicationTest(failed)" parallel="classes">
-    <groups>
-      <run>
-        <include name="multiplication"/>
-        <include name="doubles"/>
-        <include name="longs"/>
-        <include name="criticalPath"/>
-        <exclude name="extended"/>
-        <exclude name="smoke"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.epam.testng.basictests.BasicMultLongsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="multNegativeLongs"/>
-          <include name="printOnFinish"/>
-        </methods>
-      </class> <!-- com.epam.testng.basictests.BasicMultLongsTest -->
-    </classes>
-  </test> <!-- MultiplicationTest(failed) -->
-  <test thread-count="12" name="CosinusTest(failed)" parallel="classes">
-    <groups>
-      <run>
-        <include name="cos"/>
-        <include name="criticalPath"/>
-        <exclude name="extended"/>
-        <exclude name="smoke"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.epam.testng.basictests.BasicCosTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="printOnFinish"/>
-          <include name="testFullRotationAnglePlusOne"/>
-        </methods>
-      </class> <!-- com.epam.testng.basictests.BasicCosTest -->
-    </classes>
-  </test> <!-- CosinusTest(failed) -->
-  <test thread-count="12" name="CotangentTest(failed)" parallel="classes">
-    <groups>
-      <run>
-        <include name="ctg"/>
-        <include name="criticalPath"/>
-        <exclude name="extended"/>
-        <exclude name="smoke"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.epam.testng.basictests.BasicCtgTest">
-        <methods>
-          <include name="testFullRotationAnglePlusOne"/>
-          <include name="setUp"/>
-          <include name="printOnFinish"/>
-        </methods>
-      </class> <!-- com.epam.testng.basictests.BasicCtgTest -->
-    </classes>
-  </test> <!-- CotangentTest(failed) -->
-  <test thread-count="12" name="TangentTest(failed)" parallel="classes">
-    <groups>
-      <run>
-        <include name="tg"/>
-        <include name="criticalPath"/>
-        <exclude name="extended"/>
-        <exclude name="smoke"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.epam.testng.basictests.BasicTgTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testFullRotationAnglePlusOne"/>
-          <include name="printOnFinish"/>
-        </methods>
-      </class> <!-- com.epam.testng.basictests.BasicTgTest -->
-    </classes>
-  </test> <!-- TangentTest(failed) -->
-</suite> <!-- Failed suite [CriticalPath] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

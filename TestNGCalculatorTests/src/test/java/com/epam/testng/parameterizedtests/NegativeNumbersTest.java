@@ -17,7 +17,7 @@ public class NegativeNumbersTest extends ParentCalculatorTests {
 	}
 
 	@Test(groups = { "criticalPath", "negatives" })
-	public void checkValuePositive() {		
+	public void checkValueNegative() {		
 		assertTrue(calculator.isNegative(value) == shouldBeNegative);
 		
 	}

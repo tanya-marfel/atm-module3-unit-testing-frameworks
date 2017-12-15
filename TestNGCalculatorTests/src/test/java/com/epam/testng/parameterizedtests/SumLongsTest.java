@@ -29,7 +29,7 @@ public class SumLongsTest extends ParentCalculatorTests {
 	@DataProvider(name = "sumPositiveLongs")
 	public Object[][] valuesForPositiveLongs() {
 		return new Object[][] { { 99L, 99L, 198L },
-				{ 9223372036854775807L, 9223372036854775807L, 18446744000000000000D }, { 50, 0, 50 } };
+				{ 9223372036854775807L, 9223372036854775807L,(long) 18446744000000000000D }, { 50, 0, 50 } };
 	}
 
 	@DataProvider(name = "sumNegativeLongs")
