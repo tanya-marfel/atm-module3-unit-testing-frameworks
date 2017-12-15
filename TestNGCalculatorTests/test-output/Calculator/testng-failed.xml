@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Calculator]">
+  <test name="AdditionSubtractionTest(failed)">
+    <groups>
+      <run>
+        <include name="addition"/>
+        <include name="subtraction"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.testng.tests.SubLongsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="subPositiveLongs" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.epam.testng.tests.SubLongsTest -->
+      <class name="com.epam.testng.tests.SumDoublesTest">
+        <methods>
+          <include name="sumPositiveAndNegativeLongs" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.testng.tests.SumDoublesTest -->
+      <class name="com.epam.testng.tests.SumLongsTest">
+        <methods>
+          <include name="sumPositiveLongs"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.testng.tests.SumLongsTest -->
+    </classes>
+  </test> <!-- AdditionSubtractionTest(failed) -->
+</suite> <!-- Failed suite [Calculator] -->

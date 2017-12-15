@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>TestNG:  AdditionTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AdditionTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 15 14:23:13 MSK 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (5 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>longs doubles criticalPath addition </td>
+</tr><tr>
+<td>Excluded groups:</td><td>smoke extended </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.testng.parameterizedtests.SumLongsTest.sumPositiveLongs()'><b>sumPositiveLongs</b><br>Test class: com.epam.testng.parameterizedtests.SumLongsTest</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: sumPositiveLongs([Parameter{index=0, type=long, declaredAnnotations=[]}, Parameter{index=1, type=long, declaredAnnotations=[]}, Parameter{index=2, type=long, declaredAnnotations=[]}])
+Arguments: [(java.lang.Long) 9223372036854775807,(java.lang.Long) 9223372036854775807,(java.lang.Double) 1.8446744E19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1468243428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1468243428'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: sumPositiveLongs([Parameter{index=0, type=long, declaredAnnotations=[]}, Parameter{index=1, type=long, declaredAnnotations=[]}, Parameter{index=2, type=long, declaredAnnotations=[]}])
+Arguments: [(java.lang.Long) 9223372036854775807,(java.lang.Long) 9223372036854775807,(java.lang.Double) 1.8446744E19]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:973)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.testng.parameterizedtests.SumLongsTest@dfd3711</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.testng.parameterizedtests.SumDoublesTest.sumPositiveLongs()'><b>sumPositiveLongs</b><br>Test class: com.epam.testng.parameterizedtests.SumDoublesTest<br>Parameters: 1.19, 2.56, 3.75</td>
+<td></td>
+<td>0</td>
+<td>com.epam.testng.parameterizedtests.SumDoublesTest@38082d64</td></tr>
+<tr>
+<td title='com.epam.testng.parameterizedtests.SumLongsTest.sumPositiveLongs()'><b>sumPositiveLongs</b><br>Test class: com.epam.testng.parameterizedtests.SumLongsTest<br>Parameters: 99, 99, 198</td>
+<td></td>
+<td>0</td>
+<td>com.epam.testng.parameterizedtests.SumLongsTest@dfd3711</td></tr>
+<tr>
+<td title='com.epam.testng.parameterizedtests.SumDoublesTest.sumPositiveLongs()'><b>sumPositiveLongs</b><br>Test class: com.epam.testng.parameterizedtests.SumDoublesTest<br>Parameters: 2147483647, 1.0, 2.147483648E9</td>
+<td></td>
+<td>0</td>
+<td>com.epam.testng.parameterizedtests.SumDoublesTest@38082d64</td></tr>
+<tr>
+<td title='com.epam.testng.parameterizedtests.SumDoublesTest.sumPositiveLongs()'><b>sumPositiveLongs</b><br>Test class: com.epam.testng.parameterizedtests.SumDoublesTest<br>Parameters: 50.1, 0, 50.1</td>
+<td></td>
+<td>0</td>
+<td>com.epam.testng.parameterizedtests.SumDoublesTest@38082d64</td></tr>
+</table><p>
+</body>
+</html>
