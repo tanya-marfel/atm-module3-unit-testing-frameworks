@@ -1,237 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="109" started-at="2017-12-15T20:01:47Z" finished-at="2017-12-15T20:01:47Z">
+  <suite name="Default suite" duration-ms="89" started-at="2017-12-15T21:06:41Z" finished-at="2017-12-15T21:06:41Z">
     <groups>
+      <group name="division">
+        <method signature="BasicDivLongsTest.checkDivisionByZeroThrowsException()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="checkDivisionByZeroThrowsException" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+        <method signature="BasicDivLongsTest.divideNegativeAndPositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeAndPositiveValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+        <method signature="BasicDivLongsTest.divideNegativeValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+        <method signature="BasicDivLongsTest.dividePositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="dividePositiveValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+      </group> <!-- division -->
       <group name="longs">
-        <method signature="SumLongsTest.sumNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumNegativeLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
-        <method signature="SumLongsTest.sumPositiveAndNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveAndNegativeLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
-        <method signature="SumLongsTest.sumPositiveLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
+        <method signature="BasicDivLongsTest.checkDivisionByZeroThrowsException()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="checkDivisionByZeroThrowsException" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+        <method signature="BasicDivLongsTest.divideNegativeAndPositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeAndPositiveValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+        <method signature="BasicDivLongsTest.divideNegativeValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+        <method signature="BasicDivLongsTest.dividePositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="dividePositiveValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
       </group> <!-- longs -->
       <group name="smoke">
-        <method signature="SumLongsTest.sumNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumNegativeLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
+        <method signature="BasicDivLongsTest.checkDivisionByZeroThrowsException()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="checkDivisionByZeroThrowsException" class="com.epam.testng.basictests.BasicDivLongsTest"/>
+        <method signature="BasicDivLongsTest.dividePositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="dividePositiveValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
       </group> <!-- smoke -->
       <group name="criticalPath">
-        <method signature="SumLongsTest.sumPositiveLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
+        <method signature="BasicDivLongsTest.divideNegativeValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
       </group> <!-- criticalPath -->
       <group name="extended">
-        <method signature="SumLongsTest.sumPositiveAndNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveAndNegativeLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
+        <method signature="BasicDivLongsTest.divideNegativeAndPositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeAndPositiveValues" class="com.epam.testng.basictests.BasicDivLongsTest"/>
       </group> <!-- extended -->
-      <group name="addition">
-        <method signature="SumLongsTest.sumNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumNegativeLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
-        <method signature="SumLongsTest.sumPositiveAndNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveAndNegativeLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
-        <method signature="SumLongsTest.sumPositiveLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveLongs" class="com.epam.testng.parameterizedtests.SumLongsTest"/>
-      </group> <!-- addition -->
     </groups>
-    <test name="Default test" duration-ms="109" started-at="2017-12-15T20:01:47Z" finished-at="2017-12-15T20:01:47Z">
-      <class name="com.epam.testng.parameterizedtests.SumLongsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="setUp" is-config="true" duration-ms="23" started-at="2017-12-15T23:01:47Z" finished-at="2017-12-15T23:01:47Z">
+    <test name="Default test" duration-ms="89" started-at="2017-12-15T21:06:41Z" finished-at="2017-12-15T21:06:41Z">
+      <class name="com.epam.testng.basictests.BasicDivLongsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="setUp" is-config="true" duration-ms="24" started-at="2017-12-16T00:06:41Z" finished-at="2017-12-16T00:06:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sumNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumNegativeLongs" duration-ms="8" started-at="2017-12-15T23:01:47Z" data-provider="sumNegativeLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-20]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-15]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-35]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumNegativeLongs -->
-        <test-method status="PASS" signature="sumNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumNegativeLongs" duration-ms="2" started-at="2017-12-15T23:01:47Z" data-provider="sumNegativeLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-2147483646]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-2147483647]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumNegativeLongs -->
-        <test-method status="PASS" signature="sumNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumNegativeLongs" duration-ms="3" started-at="2017-12-15T23:01:47Z" data-provider="sumNegativeLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-50]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-50]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumNegativeLongs -->
-        <test-method status="PASS" signature="sumPositiveAndNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveAndNegativeLongs" duration-ms="1" started-at="2017-12-15T23:01:47Z" data-provider="sumPositiveAndNegativeLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-15]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumPositiveAndNegativeLongs -->
-        <test-method status="PASS" signature="sumPositiveAndNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveAndNegativeLongs" duration-ms="2" started-at="2017-12-15T23:01:47Z" data-provider="sumPositiveAndNegativeLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2147483646]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2147483645]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumPositiveAndNegativeLongs -->
-        <test-method status="PASS" signature="sumPositiveAndNegativeLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveAndNegativeLongs" duration-ms="2" started-at="2017-12-15T23:01:47Z" data-provider="sumPositiveAndNegativeLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-50]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-49]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumPositiveAndNegativeLongs -->
-        <test-method status="PASS" signature="sumPositiveLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveLongs" duration-ms="1" started-at="2017-12-15T23:01:47Z" data-provider="sumPositiveLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[99]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[99]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[198]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumPositiveLongs -->
-        <test-method status="FAIL" signature="sumPositiveLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveLongs" duration-ms="2" started-at="2017-12-15T23:01:47Z" data-provider="sumPositiveLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9223372036854775807]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9223372036854775807]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9223372036854775807]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+        <test-method status="PASS" signature="checkDivisionByZeroThrowsException()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="checkDivisionByZeroThrowsException" duration-ms="8" started-at="2017-12-16T00:06:41Z" finished-at="2017-12-16T00:06:41Z">
+          <exception class="java.lang.NumberFormatException">
             <message>
-              <![CDATA[Invalid operation result expected [9223372036854775807] but found [-2]]]>
+              <![CDATA[Attempt to divide by zero]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid operation result expected [9223372036854775807] but found [-2]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:547)at com.epam.testng.parameterizedtests.SumLongsTest.sumPositiveLongs(SumLongsTest.java:20)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zeroat com.epam.tat.module4.Calculator.div(Calculator.java:34)at com.epam.testng.basictests.BasicDivLongsTest.checkDivisionByZeroThrowsException(BasicDivLongsTest.java:32)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDivisionByZeroThrowsException -->
+        <test-method status="PASS" signature="divideNegativeAndPositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeAndPositiveValues" duration-ms="5" started-at="2017-12-16T00:06:41Z" finished-at="2017-12-16T00:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideNegativeAndPositiveValues -->
+        <test-method status="PASS" signature="divideNegativeValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="divideNegativeValues" duration-ms="2" started-at="2017-12-16T00:06:41Z" finished-at="2017-12-16T00:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideNegativeValues -->
+        <test-method status="FAIL" signature="dividePositiveValues()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="dividePositiveValues" duration-ms="2" started-at="2017-12-16T00:06:41Z" finished-at="2017-12-16T00:06:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of operation expected [2.666666666666667] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of operation expected [2.666666666666667] but found [2]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at com.epam.testng.basictests.BasicDivLongsTest.dividePositiveValues(BasicDivLongsTest.java:14)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sumPositiveLongs -->
-        <test-method status="PASS" signature="sumPositiveLongs(long, long, long)[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="sumPositiveLongs" duration-ms="1" started-at="2017-12-15T23:01:47Z" data-provider="sumPositiveLongs" finished-at="2017-12-15T23:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumPositiveLongs -->
-        <test-method status="PASS" signature="printOnFinish()[pri:0, instance:com.epam.testng.parameterizedtests.SumLongsTest@29774679]" name="printOnFinish" is-config="true" duration-ms="1" started-at="2017-12-15T23:01:47Z" finished-at="2017-12-15T23:01:47Z">
+        </test-method> <!-- dividePositiveValues -->
+        <test-method status="PASS" signature="printOnFinish()[pri:0, instance:com.epam.testng.basictests.BasicDivLongsTest@61832929]" name="printOnFinish" is-config="true" duration-ms="0" started-at="2017-12-16T00:06:41Z" finished-at="2017-12-16T00:06:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printOnFinish -->
-      </class> <!-- com.epam.testng.parameterizedtests.SumLongsTest -->
+      </class> <!-- com.epam.testng.basictests.BasicDivLongsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

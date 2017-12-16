@@ -17,7 +17,7 @@ public class BasicSqrtTest extends ParentCalculatorTests {
 	@Test(groups = { "extended", "squareRoot" })
 	public void testNegativeNumbers() {
 		double result = calculator.sqrt(-4D);
-		assertTrue(result == Double.NaN, "Invalid operation result");
+		assertEquals(result, Double.NaN, "Invalid operation result");
 	}
 
 	@Test(groups = { "criticalPath", "squareRoot" })

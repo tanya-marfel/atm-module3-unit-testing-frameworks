@@ -1,5 +1,6 @@
 package com.epam.testng.basictests;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.Test;
@@ -28,6 +29,6 @@ public class BasicDivDoublesTest extends ParentCalculatorTests {
 	@Test(groups = { "smoke", "division", "doubles" })
 	public void divideByZero() {
 		double result = calculator.div(3D, 0);
-		assertTrue(result == Double.NaN);
+		assertEquals(result, Double.NaN, "Invalid result of operation");
 	}
 }
