@@ -10,7 +10,7 @@ public class BasicCtgTest extends ParentCalculatorTests {
 	@Test(groups = { "smoke", "ctg" })
 	public void testZeroAngle() {
 		double result = calculator.ctg(0D);
-		assertEquals(result, "Infinity", "Invalid operation result");
+		assertEquals(result, Double.POSITIVE_INFINITY, "Invalid operation result");
 
 	}
 

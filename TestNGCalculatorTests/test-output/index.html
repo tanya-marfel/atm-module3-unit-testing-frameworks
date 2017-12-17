@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.basictests.BasicDivLongsTest" hash-for-method="dividePositiveValues">dividePositiveValues</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumPositiveAndNegativeLongs(2.14748364666E9, -1.55, 2.14748364511E9)">sumPositiveAndNegativeLongs(2.14748364666E9, -1.55, 2.14748364511E9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumPositiveAndNegativeLongs(20.01, -15.45, 4.56)">sumPositiveAndNegativeLongs(20.01, -15.45, 4.56)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,17 +121,37 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.basictests.BasicDivLongsTest" hash-for-method="checkDivisionByZeroThrowsException">checkDivisionByZeroThrowsException</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumNegativeLongs(-1.0, -2.56, -3.56)">sumNegativeLongs(-1.0, -2.56, -3.56)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.basictests.BasicDivLongsTest" hash-for-method="divideNegativeAndPositiveValues">divideNegativeAndPositiveValues</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumNegativeLongs(-50, 0, -50.0)">sumNegativeLongs(-50, 0, -50.0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.basictests.BasicDivLongsTest" hash-for-method="divideNegativeValues">divideNegativeValues</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumNegativeLongs(-1.7976931348623157E308, -1, -1.7976931348623157E308)">sumNegativeLongs(-1.7976931348623157E308, -1, -1.7976931348623157E308)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumPositiveAndNegativeLongs(1, -50, -49.0)">sumPositiveAndNegativeLongs(1, -50, -49.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumPositiveLongs(50.1, 0, 50.1)">sumPositiveLongs(50.1, 0, 50.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumPositiveLongs(2147483647, 1.0, 2.147483648E9)">sumPositiveLongs(2147483647, 1.0, 2.147483648E9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.epam.testng.parameterizedtests.SumDoublesTest" hash-for-method="sumPositiveLongs(1.19, 2.56, 3.75)">sumPositiveLongs(1.19, 2.56, 3.75)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,20 +169,62 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.epam.testng.basictests.BasicDivLongsTest</span>
+              <span class="class-name">com.epam.testng.parameterizedtests.SumDoublesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dividePositiveValues">
-                  </a> <!-- dividePositiveValues -->
-                  <span class="method-name">dividePositiveValues</span>
-                  <div class="stack-trace">java.lang.AssertionError: Invalid result of operation expected [2.666666666666667] but found [2]
+                  <a name="sumPositiveAndNegativeLongs(2.14748364666E9, -1.55, 2.14748364511E9)">
+                  </a> <!-- sumPositiveAndNegativeLongs(2.14748364666E9, -1.55, 2.14748364511E9) -->
+                  <span class="method-name">sumPositiveAndNegativeLongs</span>
+                  <span class="parameters">(2.14748364666E9, -1.55, 2.14748364511E9)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid operation result expected [2.14748364511E9] but found [2.1474836451100001E9]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
-	at com.epam.testng.basictests.BasicDivLongsTest.dividePositiveValues(BasicDivLongsTest.java:14)
+	at com.epam.testng.parameterizedtests.SumDoublesTest.sumPositiveAndNegativeLongs(SumDoublesTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumPositiveAndNegativeLongs(20.01, -15.45, 4.56)">
+                  </a> <!-- sumPositiveAndNegativeLongs(20.01, -15.45, 4.56) -->
+                  <span class="method-name">sumPositiveAndNegativeLongs</span>
+                  <span class="parameters">(20.01, -15.45, 4.56)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid operation result expected [4.56] but found [4.560000000000002]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at com.epam.testng.parameterizedtests.SumDoublesTest.sumPositiveAndNegativeLongs(SumDoublesTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -192,28 +259,63 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.epam.testng.basictests.BasicDivLongsTest</span>
+              <span class="class-name">com.epam.testng.parameterizedtests.SumDoublesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkDivisionByZeroThrowsException">
-                  </a> <!-- checkDivisionByZeroThrowsException -->
-                  <span class="method-name">checkDivisionByZeroThrowsException</span>
+                  <a name="sumNegativeLongs(-1.0, -2.56, -3.56)">
+                  </a> <!-- sumNegativeLongs(-1.0, -2.56, -3.56) -->
+                  <span class="method-name">sumNegativeLongs</span>
+                  <span class="parameters">(-1.0, -2.56, -3.56)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="divideNegativeAndPositiveValues">
-                  </a> <!-- divideNegativeAndPositiveValues -->
-                  <span class="method-name">divideNegativeAndPositiveValues</span>
+                  <a name="sumNegativeLongs(-50, 0, -50.0)">
+                  </a> <!-- sumNegativeLongs(-50, 0, -50.0) -->
+                  <span class="method-name">sumNegativeLongs</span>
+                  <span class="parameters">(-50, 0, -50.0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="divideNegativeValues">
-                  </a> <!-- divideNegativeValues -->
-                  <span class="method-name">divideNegativeValues</span>
+                  <a name="sumNegativeLongs(-1.7976931348623157E308, -1, -1.7976931348623157E308)">
+                  </a> <!-- sumNegativeLongs(-1.7976931348623157E308, -1, -1.7976931348623157E308) -->
+                  <span class="method-name">sumNegativeLongs</span>
+                  <span class="parameters">(-1.7976931348623157E308, -1, -1.7976931348623157E308)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumPositiveAndNegativeLongs(1, -50, -49.0)">
+                  </a> <!-- sumPositiveAndNegativeLongs(1, -50, -49.0) -->
+                  <span class="method-name">sumPositiveAndNegativeLongs</span>
+                  <span class="parameters">(1, -50, -49.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumPositiveLongs(50.1, 0, 50.1)">
+                  </a> <!-- sumPositiveLongs(50.1, 0, 50.1) -->
+                  <span class="method-name">sumPositiveLongs</span>
+                  <span class="parameters">(50.1, 0, 50.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumPositiveLongs(2147483647, 1.0, 2.147483648E9)">
+                  </a> <!-- sumPositiveLongs(2147483647, 1.0, 2.147483648E9) -->
+                  <span class="method-name">sumPositiveLongs</span>
+                  <span class="parameters">(2147483647, 1.0, 2.147483648E9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumPositiveLongs(1.19, 2.56, 3.75)">
+                  </a> <!-- sumPositiveLongs(1.19, 2.56, 3.75) -->
+                  <span class="method-name">sumPositiveLongs</span>
+                  <span class="parameters">(1.19, 2.56, 3.75)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -221,7 +323,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/j7/2rwjr6pj5kg8gd_6crcktjjw0000gn/T/testng-eclipse--1210783318/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/j7/2rwjr6pj5kg8gd_6crcktjjw0000gn/T/testng-eclipse--2068746515/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -230,7 +332,7 @@
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.epam.testng.basictests.BasicDivLongsTest&quot;/&gt;
+      &lt;class name=&quot;com.epam.testng.parameterizedtests.SumDoublesTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -255,30 +357,42 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">criticalPath</span>
+              <span class="test-group-name">addition</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">divideNegativeValues</span>
+                <span class="method-in-group-name">sumNegativeLongs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sumPositiveAndNegativeLongs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sumPositiveLongs</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">division</span>
+              <span class="test-group-name">criticalPath</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">checkDivisionByZeroThrowsException</span>
+                <span class="method-in-group-name">sumPositiveLongs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">doubles</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">sumNegativeLongs</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">divideNegativeAndPositiveValues</span>
+                <span class="method-in-group-name">sumPositiveAndNegativeLongs</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">divideNegativeValues</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">dividePositiveValues</span>
+                <span class="method-in-group-name">sumPositiveLongs</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -286,27 +400,7 @@
               <span class="test-group-name">extended</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">divideNegativeAndPositiveValues</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">longs</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">checkDivisionByZeroThrowsException</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">divideNegativeAndPositiveValues</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">divideNegativeValues</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">dividePositiveValues</span>
+                <span class="method-in-group-name">sumPositiveAndNegativeLongs</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -314,11 +408,7 @@
               <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">checkDivisionByZeroThrowsException</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">dividePositiveValues</span>
+                <span class="method-in-group-name">sumNegativeLongs</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -338,28 +428,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkDivisionByZeroThrowsException')
-data.setCell(0, 2, 'com.epam.testng.basictests.BasicDivLongsTest')
-data.setCell(0, 3, 8);
+data.setCell(0, 1, 'sumNegativeLongs')
+data.setCell(0, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(0, 3, 16);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'divideNegativeAndPositiveValues')
-data.setCell(1, 2, 'com.epam.testng.basictests.BasicDivLongsTest')
-data.setCell(1, 3, 5);
+data.setCell(1, 1, 'sumPositiveAndNegativeLongs')
+data.setCell(1, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(1, 3, 12);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'divideNegativeValues')
-data.setCell(2, 2, 'com.epam.testng.basictests.BasicDivLongsTest')
-data.setCell(2, 3, 2);
+data.setCell(2, 1, 'sumPositiveAndNegativeLongs')
+data.setCell(2, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(2, 3, 7);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'dividePositiveValues')
-data.setCell(3, 2, 'com.epam.testng.basictests.BasicDivLongsTest')
-data.setCell(3, 3, 2);
+data.setCell(3, 1, 'sumPositiveLongs')
+data.setCell(3, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(3, 3, 5);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sumNegativeLongs')
+data.setCell(4, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'sumNegativeLongs')
+data.setCell(5, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sumPositiveLongs')
+data.setCell(6, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sumPositiveAndNegativeLongs')
+data.setCell(7, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sumPositiveLongs')
+data.setCell(8, 2, 'com.epam.testng.parameterizedtests.SumDoublesTest')
+data.setCell(8, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 ms</span>
+              <span class="suite-total-time">Total running time: 54 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -385,32 +495,54 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.epam.testng.basictests.BasicDivLongsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.epam.testng.parameterizedtests.SumDoublesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">checkDivisionByZeroThrowsException</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-name">sumNegativeLongs(-1.0, -2.56, -3.56)</span>
+                <span class="method-start">44 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">divideNegativeAndPositiveValues</span>
-                <span class="method-start">55 ms</span>
+                <span class="method-name">sumNegativeLongs(-1.7976931348623157E308, -1, -1.7976931348623157E308)</span>
+                <span class="method-start">63 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">divideNegativeValues</span>
-                <span class="method-start">65 ms</span>
+                <span class="method-name">sumNegativeLongs(-50, 0, -50.0)</span>
+                <span class="method-start">74 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">dividePositiveValues</span>
-                <span class="method-start">69 ms</span>
+                <span class="method-name">sumPositiveAndNegativeLongs(20.01, -15.45, 4.56)</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sumPositiveAndNegativeLongs(2.14748364666E9, -1.55, 2.14748364511E9)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumPositiveAndNegativeLongs(1, -50, -49.0)</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumPositiveLongs(1.19, 2.56, 3.75)</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumPositiveLongs(2147483647, 1.0, 2.147483648E9)</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumPositiveLongs(50.1, 0, 50.1)</span>
+                <span class="method-start">129 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">printOnFinish</span>
-                <span class="method-start">75 ms</span>
+                <span class="method-start">134 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
