@@ -1,8 +1,8 @@
 package com.epam.junit.basictests;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BasicCosTest extends ParentCalculatorTests {
 
