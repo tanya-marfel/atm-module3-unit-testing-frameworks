@@ -7,3 +7,7 @@
 .DS_Store?
 /.metadata/
 .idea
+target/
+target
+/target
+/target/
